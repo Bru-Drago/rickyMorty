@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -111,7 +111,6 @@
 				ACB6899D1BA2C06E163A3144 /* Pods-Ricky&MortyTests.debug.xcconfig */,
 				694F7B5D364946F34259D4E0 /* Pods-Ricky&MortyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,13 +139,11 @@
 		7091A0A725C0B19600EFF068 /* Ricky&Morty */ = {
 			isa = PBXGroup;
 			children = (
-				7091A0A825C0B19600EFF068 /* AppDelegate.swift */,
-				7091A0AA25C0B19600EFF068 /* SceneDelegate.swift */,
-				7091A0AC25C0B19600EFF068 /* ViewController.swift */,
-				7091A0AE25C0B19600EFF068 /* Main.storyboard */,
-				7091A0B125C0B19800EFF068 /* Assets.xcassets */,
-				7091A0B325C0B19800EFF068 /* LaunchScreen.storyboard */,
-				7091A0B625C0B19800EFF068 /* Info.plist */,
+				7091A0F625C0DB4200EFF068 /* Resources */,
+				7091A0FD25C0DC1B00EFF068 /* Source */,
+				7091A0F825C0DB8C00EFF068 /* Storyboards */,
+				7091A0F925C0DB9800EFF068 /* SupportFiles */,
+				7091A0F725C0DB8300EFF068 /* Source */,
 			);
 			path = "Ricky&Morty";
 			sourceTree = "<group>";
@@ -167,6 +164,49 @@
 				7091A0CC25C0B19900EFF068 /* Info.plist */,
 			);
 			path = "Ricky&MortyUITests";
+			sourceTree = "<group>";
+		};
+		7091A0F625C0DB4200EFF068 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7091A0B125C0B19800EFF068 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7091A0F725C0DB8300EFF068 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7091A0F825C0DB8C00EFF068 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7091A0AE25C0B19600EFF068 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7091A0F925C0DB9800EFF068 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7091A0A825C0B19600EFF068 /* AppDelegate.swift */,
+				7091A0AA25C0B19600EFF068 /* SceneDelegate.swift */,
+				7091A0B325C0B19800EFF068 /* LaunchScreen.storyboard */,
+				7091A0B625C0B19800EFF068 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		7091A0FD25C0DC1B00EFF068 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7091A0AC25C0B19600EFF068 /* ViewController.swift */,
+			);
+			name = Source;
+			path = SupportFiles/Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
