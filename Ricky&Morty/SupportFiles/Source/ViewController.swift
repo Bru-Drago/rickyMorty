@@ -6,14 +6,30 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var textField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        
+        let request =  AF.request("https://rickandmortyapi.com/api/character", method: .get)
+        request.responseJSON { response in
+            switch response.result {
+            case .success(_):
+                print(response)
+            case .failure:
+                print(response.error)
+            }
+        }
+        
     }
-
-
+    
+    
 }
 

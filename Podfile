@@ -7,6 +7,7 @@ target 'Ricky&Morty' do
 
   # Pods for Ricky&Morty
     pod 'Alamofire'
+    pod 'Kingfisher'
 
   target 'Ricky&MortyTests' do
     inherit! :search_paths
