@@ -19,6 +19,8 @@
 		7091A0C025C0B19900EFF068 /* Ricky_MortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0BF25C0B19900EFF068 /* Ricky_MortyTests.swift */; };
 		7091A0CB25C0B19900EFF068 /* Ricky_MortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0CA25C0B19900EFF068 /* Ricky_MortyUITests.swift */; };
 		7091A10025C0DEBF00EFF068 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0FF25C0DEBF00EFF068 /* Character.swift */; };
+		70B517EA25D1FF4200F22B20 /* CharacterListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B517E925D1FF4200F22B20 /* CharacterListWorker.swift */; };
+		70B517F325D2012500F22B20 /* RequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B517F225D2012500F22B20 /* RequestData.swift */; };
 		B7E068442CC3B120501ED65C /* Pods_Ricky_Morty_Ricky_MortyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3545EB0647E576A96D2A6DCF /* Pods_Ricky_Morty_Ricky_MortyUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		7091A0CA25C0B19900EFF068 /* Ricky_MortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ricky_MortyUITests.swift; sourceTree = "<group>"; };
 		7091A0CC25C0B19900EFF068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7091A0FF25C0DEBF00EFF068 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		70B517E925D1FF4200F22B20 /* CharacterListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListWorker.swift; sourceTree = "<group>"; };
+		70B517F225D2012500F22B20 /* RequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestData.swift; sourceTree = "<group>"; };
 		84C64328DBEB2CEE20578B48 /* Pods_Ricky_MortyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ricky_MortyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EDBCCFCF25A0EE98685C37 /* Pods-Ricky&Morty-Ricky&MortyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ricky&Morty-Ricky&MortyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ricky&Morty-Ricky&MortyUITests/Pods-Ricky&Morty-Ricky&MortyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACB6899D1BA2C06E163A3144 /* Pods-Ricky&MortyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ricky&MortyTests.debug.xcconfig"; path = "Target Support Files/Pods-Ricky&MortyTests/Pods-Ricky&MortyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				706A58F925CA1FD1007E3840 /* NetworkManager.swift */,
+				70B517F225D2012500F22B20 /* RequestData.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -207,9 +212,10 @@
 		7091A0FD25C0DC1B00EFF068 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				70B517F125D2002300F22B20 /* Features */,
 				706A58F825CA1FBA007E3840 /* Networking */,
 				7091A0FE25C0DE7800EFF068 /* Model */,
-				7091A0AC25C0B19600EFF068 /* ViewController.swift */,
+				70B517E825D1FF2000F22B20 /* Workers */,
 			);
 			name = Source;
 			path = SupportFiles/Source;
@@ -221,6 +227,22 @@
 				7091A0FF25C0DEBF00EFF068 /* Character.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		70B517E825D1FF2000F22B20 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				70B517E925D1FF4200F22B20 /* CharacterListWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		70B517F125D2002300F22B20 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7091A0AC25C0B19600EFF068 /* ViewController.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,7 +487,9 @@
 				7091A0A925C0B19600EFF068 /* AppDelegate.swift in Sources */,
 				706A58FA25CA1FD1007E3840 /* NetworkManager.swift in Sources */,
 				7091A0AB25C0B19600EFF068 /* SceneDelegate.swift in Sources */,
+				70B517F325D2012500F22B20 /* RequestData.swift in Sources */,
 				7091A10025C0DEBF00EFF068 /* Character.swift in Sources */,
+				70B517EA25D1FF4200F22B20 /* CharacterListWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
