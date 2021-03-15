@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		38EA380035E0BD9530247AC1 /* Pods_Ricky_MortyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C64328DBEB2CEE20578B48 /* Pods_Ricky_MortyTests.framework */; };
 		5758133774400B9D7AF9BD50 /* Pods_Ricky_Morty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B61D35286DFE64E77F1F235 /* Pods_Ricky_Morty.framework */; };
-		706A58FA25CA1FD1007E3840 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A58F925CA1FD1007E3840 /* NetworkManager.swift */; };
 		7091A0A925C0B19600EFF068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0A825C0B19600EFF068 /* AppDelegate.swift */; };
 		7091A0AB25C0B19600EFF068 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0AA25C0B19600EFF068 /* SceneDelegate.swift */; };
 		7091A0AD25C0B19600EFF068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0AC25C0B19600EFF068 /* ViewController.swift */; };
@@ -18,9 +17,6 @@
 		7091A0B525C0B19800EFF068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7091A0B325C0B19800EFF068 /* LaunchScreen.storyboard */; };
 		7091A0C025C0B19900EFF068 /* Ricky_MortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0BF25C0B19900EFF068 /* Ricky_MortyTests.swift */; };
 		7091A0CB25C0B19900EFF068 /* Ricky_MortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0CA25C0B19900EFF068 /* Ricky_MortyUITests.swift */; };
-		7091A10025C0DEBF00EFF068 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0FF25C0DEBF00EFF068 /* Character.swift */; };
-		70B517EA25D1FF4200F22B20 /* CharacterListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B517E925D1FF4200F22B20 /* CharacterListWorker.swift */; };
-		70B517F325D2012500F22B20 /* RequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B517F225D2012500F22B20 /* RequestData.swift */; };
 		B7E068442CC3B120501ED65C /* Pods_Ricky_Morty_Ricky_MortyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3545EB0647E576A96D2A6DCF /* Pods_Ricky_Morty_Ricky_MortyUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +44,6 @@
 		5023BA1285E241E44A1B2B07 /* Pods-Ricky&Morty-Ricky&MortyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ricky&Morty-Ricky&MortyUITests.release.xcconfig"; path = "Target Support Files/Pods-Ricky&Morty-Ricky&MortyUITests/Pods-Ricky&Morty-Ricky&MortyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		694F7B5D364946F34259D4E0 /* Pods-Ricky&MortyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ricky&MortyTests.release.xcconfig"; path = "Target Support Files/Pods-Ricky&MortyTests/Pods-Ricky&MortyTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B61D35286DFE64E77F1F235 /* Pods_Ricky_Morty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ricky_Morty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		706A58F925CA1FD1007E3840 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7091A0A525C0B19600EFF068 /* Ricky&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ricky&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7091A0A825C0B19600EFF068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7091A0AA25C0B19600EFF068 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,9 +58,6 @@
 		7091A0C625C0B19900EFF068 /* Ricky&MortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ricky&MortyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7091A0CA25C0B19900EFF068 /* Ricky_MortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ricky_MortyUITests.swift; sourceTree = "<group>"; };
 		7091A0CC25C0B19900EFF068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7091A0FF25C0DEBF00EFF068 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		70B517E925D1FF4200F22B20 /* CharacterListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListWorker.swift; sourceTree = "<group>"; };
-		70B517F225D2012500F22B20 /* RequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestData.swift; sourceTree = "<group>"; };
 		84C64328DBEB2CEE20578B48 /* Pods_Ricky_MortyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ricky_MortyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EDBCCFCF25A0EE98685C37 /* Pods-Ricky&Morty-Ricky&MortyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ricky&Morty-Ricky&MortyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ricky&Morty-Ricky&MortyUITests/Pods-Ricky&Morty-Ricky&MortyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACB6899D1BA2C06E163A3144 /* Pods-Ricky&MortyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ricky&MortyTests.debug.xcconfig"; path = "Target Support Files/Pods-Ricky&MortyTests/Pods-Ricky&MortyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,8 +117,6 @@
 		706A58F825CA1FBA007E3840 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				706A58F925CA1FD1007E3840 /* NetworkManager.swift */,
-				70B517F225D2012500F22B20 /* RequestData.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -224,7 +214,6 @@
 		7091A0FE25C0DE7800EFF068 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7091A0FF25C0DEBF00EFF068 /* Character.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,7 +221,6 @@
 		70B517E825D1FF2000F22B20 /* Workers */ = {
 			isa = PBXGroup;
 			children = (
-				70B517E925D1FF4200F22B20 /* CharacterListWorker.swift */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -485,11 +473,7 @@
 			files = (
 				7091A0AD25C0B19600EFF068 /* ViewController.swift in Sources */,
 				7091A0A925C0B19600EFF068 /* AppDelegate.swift in Sources */,
-				706A58FA25CA1FD1007E3840 /* NetworkManager.swift in Sources */,
 				7091A0AB25C0B19600EFF068 /* SceneDelegate.swift in Sources */,
-				70B517F325D2012500F22B20 /* RequestData.swift in Sources */,
-				7091A10025C0DEBF00EFF068 /* Character.swift in Sources */,
-				70B517EA25D1FF4200F22B20 /* CharacterListWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
