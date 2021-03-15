@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Alamofire
+
 
 class ViewController: UIViewController {
     
@@ -14,23 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        
-
-        
-//        let request =  AF.request("https://rickandmortyapi.com/api/character", method: .get)
-//        request.responseJSON { response in
-//            switch response.result {
-//            case .success(_):
-//                print(response)
-//            case .failure:
-//                print(response.error)
-//            }
-//        }
-        
+        let url = "https://rickandmortyapi.com/api/character"
+        NetworkManager.request(url: url) { characters in
+            print(characters)
+        }
     }
-
-    
-    
 }
 
