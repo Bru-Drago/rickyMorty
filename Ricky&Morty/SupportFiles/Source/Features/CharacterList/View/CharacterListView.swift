@@ -6,8 +6,7 @@
 //
 
 import UIKit
-
-
+import SnapKit
 
 class CharacterListView: UIView {
 
