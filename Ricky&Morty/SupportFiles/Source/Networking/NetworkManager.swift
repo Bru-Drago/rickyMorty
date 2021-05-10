@@ -27,6 +27,5 @@ class NetworkManager: NetworkManagerProtocol {
                 print(error)
             }
         }
-        
     }
 }
