@@ -15,6 +15,7 @@
 		7021E87C264966810026320D /* CharacterListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7021E87B264966810026320D /* CharacterListPresenter.swift */; };
 		7021E87E264966960026320D /* CharacterListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7021E87D264966960026320D /* CharacterListRouter.swift */; };
 		7021E881264966B70026320D /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7021E880264966B70026320D /* CharacterListView.swift */; };
+		7021E8862649673A0026320D /* ViewCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7021E8852649673A0026320D /* ViewCodeProtocol.swift */; };
 		7091A0A925C0B19600EFF068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0A825C0B19600EFF068 /* AppDelegate.swift */; };
 		7091A0AB25C0B19600EFF068 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0AA25C0B19600EFF068 /* SceneDelegate.swift */; };
 		7091A0AD25C0B19600EFF068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091A0AC25C0B19600EFF068 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 		7021E87B264966810026320D /* CharacterListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListPresenter.swift; sourceTree = "<group>"; };
 		7021E87D264966960026320D /* CharacterListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListRouter.swift; sourceTree = "<group>"; };
 		7021E880264966B70026320D /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		7021E8852649673A0026320D /* ViewCodeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeProtocol.swift; sourceTree = "<group>"; };
 		7091A0A525C0B19600EFF068 /* Ricky&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ricky&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7091A0A825C0B19600EFF068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7091A0AA25C0B19600EFF068 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,30 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7021E882264967050026320D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7021E884264967260026320D /* Common */,
+				7021E883264967100026320D /* Extension */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7021E883264967100026320D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7021E884264967260026320D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7021E8852649673A0026320D /* ViewCodeProtocol.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		706A58F825CA1FBA007E3840 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +210,7 @@
 		7091A0A725C0B19600EFF068 /* Ricky&Morty */ = {
 			isa = PBXGroup;
 			children = (
+				7021E882264967050026320D /* Shared */,
 				7091A0F625C0DB4200EFF068 /* Resources */,
 				7091A0FD25C0DC1B00EFF068 /* Source */,
 				7091A0F925C0DB9800EFF068 /* SupportFiles */,
@@ -522,6 +549,7 @@
 				7091A0AD25C0B19600EFF068 /* ViewController.swift in Sources */,
 				7091A0A925C0B19600EFF068 /* AppDelegate.swift in Sources */,
 				7021E87E264966960026320D /* CharacterListRouter.swift in Sources */,
+				7021E8862649673A0026320D /* ViewCodeProtocol.swift in Sources */,
 				7021E875264966050026320D /* CharactersListVC.swift in Sources */,
 				70C28836260007FF008E1C09 /* CharacterResponse.swift in Sources */,
 				7021E881264966B70026320D /* CharacterListView.swift in Sources */,
