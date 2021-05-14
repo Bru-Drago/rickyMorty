@@ -17,7 +17,9 @@ struct Character: Decodable {
     
     let species: String
     
+    let image: String
+    
     enum CodingKeys: CodingKey {
-        case id, name, status, species
+        case id, name, status, species, image
     }
 }

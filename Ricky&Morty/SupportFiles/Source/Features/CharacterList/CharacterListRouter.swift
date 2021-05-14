@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+protocol CharacterListRouterProtocol {
+    
+}
+
+class CharacterListRouter: CharacterListRouterProtocol {
+    
+    // MARK: - VIP Properties
+    
+    weak var viewController: CharactersListVC!
+}
