@@ -77,7 +77,7 @@ extension CharacterCell: ViewCodeProtocol {
     }
     
     func setupComponents() {
-        backgroundColor = .systemGreen
+        backgroundColor = .black
     }
 }
     

@@ -18,10 +18,32 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        let viewController =  CharacterListBuilder.build()
-        let navigation = UINavigationController(rootViewController:  viewController)
-        window?.rootViewController = navigation
+//        let viewController =  CharacterListBuilder.build()
+//        let navigation = UINavigationController(rootViewController:  viewController)
         window?.makeKeyAndVisible()
+        window?.rootViewController = createTabBar()
+        
+        configureNavigationBar()
+    }
+    
+    func createTabBar() -> UITabBarController {
+        let tabBar = UITabBarController()
+        UITabBar.appearance().tintColor = .systemGreen
+        tabBar.viewControllers = [createCharacterNavigationController()]
+        
+        return tabBar
+    }
+    
+    func createCharacterNavigationController() -> UINavigationController {
+        let characterVC = CharacterListBuilder.build()
+        characterVC.title = "Ricky&Morty"
+        characterVC.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 1)
+        
+        return UINavigationController(rootViewController: characterVC)
+    }
+    
+    func configureNavigationBar() {
+        UINavigationBar.appearance().tintColor = .systemGreen
     }
 
 

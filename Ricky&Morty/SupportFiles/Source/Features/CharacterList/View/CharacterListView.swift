@@ -19,7 +19,6 @@ class CharacterListView: UIView {
             frame: .zero, collectionViewLayout: layout)
         collection.delegate = self
         collection.dataSource = self
-        collection.backgroundColor = .systemBackground
         return collection
     }()
     
